@@ -1,0 +1,94 @@
+/* Estilos gerais */
+html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(201, 201, 201);
+}
+
+body {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f5f5f5; /* Cinza claro para o fundo do formulário */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #8400ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos específicos para a lista de alunos */
+ul {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul li {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    text-align: center; /* Centralizando o nome dos alunos */
+}
+
+/* Estilos para os botões */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para os botões Adicionar Novo Aluno e Logout */
+.button.add-student,
+.button.logout {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button.add-student:hover,
+.button.logout:hover {
+    background-color: #0056b3;
+}
